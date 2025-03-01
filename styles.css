@@ -14,8 +14,9 @@ header {
     position: relative;
     text-align: center;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(173, 216, 230, 0.8); /* Light blue with 80% opacity */
 }
+
 
 /* Logo Styling */
 .logo {
