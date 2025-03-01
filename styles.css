@@ -6,7 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: #222; /* Changed to a darker color for better visibility */
 }
 
 /* Header Styling */
@@ -30,10 +30,12 @@ h1 {
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 10px;
+    color: #111; /* Darker color */
 }
 
 p {
     font-size: 1.2rem;
+    color: #333; /* Darker color */
 }
 
 /* Benefits Section */
@@ -43,16 +45,18 @@ p {
 
 .benefits h2 {
     font-size: 2rem;
+    color: #222; /* Darker color */
 }
 
 /* Call to Action */
 .cta {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.9);
     padding: 30px;
     border-radius: 10px;
     width: 80%;
     max-width: 500px;
     margin: 20px auto;
+    color: #222; /* Darker text for contrast */
 }
 
 .cta form {
@@ -70,7 +74,12 @@ p {
 }
 
 .cta input {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(200, 200, 200, 0.8); /* Darker placeholder background */
+    color: #111; /* Darker text */
+}
+
+.cta input::placeholder {
+    color: #555; /* Darker placeholder text */
 }
 
 .cta button {
