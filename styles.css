@@ -9,16 +9,21 @@ body {
     color: white;
 }
 
-/* Logo Styling */
-.logo {
-    width: 150px;
-    margin-top: 20px;
-}
-
 /* Header Styling */
 header {
-    padding: 50px 20px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
     background: rgba(0, 0, 0, 0.5);
+}
+
+/* Logo Styling */
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 80px;  /* Adjust size */
+    height: auto;  /* Maintain aspect ratio */
 }
 
 h1 {
