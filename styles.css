@@ -23,7 +23,9 @@ header {
     top: 10px;
     left: 20px;
     width: 80px;  /* Adjust size */
-    height: auto;  /* Maintain aspect ratio */
+    height: 80px;  /* Ensure uniform height */
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensure it fits well */
 }
 
 h1 {
